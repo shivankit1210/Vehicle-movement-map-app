@@ -21,8 +21,8 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 1. **Clone the repository:** `git clone https://github.com/your-username/map-navigator.git`
 2. **Navigate to the project directory:** `cd map-navigator`
 3. **Install the dependencies:** `npm install`
-4. **Start the development server:** `npm start`
-5. **Open your browser and visit:** `http://localhost:3000`
+4. **Start the development server:** `npm run dev`
+5. **Open your browser and visit:** `http://localhost:5173`
 
 ## Project Structure
 
