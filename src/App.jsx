@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import MapComponent from "./components/Mapcomponent";
+import MapComponent from "./components/MapComponent";
 import Header from "./components/Header";
 import InputLocations from "./components/InputLocations";
 import { getCoordinatesFromLocation } from "./utils/jeoUtils";
