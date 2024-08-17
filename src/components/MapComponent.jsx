@@ -124,7 +124,7 @@ const MapComponent = ({ startPosition, endPosition }) => {
             {startLocationName}
           </label>
           <label>
-            <span className="font-bold text-purple-700">
+            <span className="font-bold text-blue-700">
               Your Current position:
             </span>{" "}
             {vehicleLocationName}
@@ -152,12 +152,11 @@ const MapComponent = ({ startPosition, endPosition }) => {
             <Marker position={startPosition} icon={startFlagIcon}></Marker>{" "}
             {/* Red flag for end */}
             <Marker position={endPosition} icon={endFlagIcon}></Marker>{" "}
-            {/* Current Location */}
-            <Polyline positions={path} color="skyblue" />
+            <Polyline positions={path} color="blue" />
           </MapContainer>
-          <div>
+          <div className="text-gray-500">
             <a target="_blank" href="https://icons8.com/icon/65545/green-flag">
-              Green and red Flag
+              Green and Red flag
             </a>{" "}
             icon by{" "}
             <a target="_blank" href="https://icons8.com">
