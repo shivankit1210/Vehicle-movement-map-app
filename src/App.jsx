@@ -37,10 +37,15 @@ const App = () => {
         <Route
           path="/map-component"
           element={
-            <MapComponent
-              startPosition={startPosition}
-              endPosition={endPosition}
-            />
+            <>
+            <Navbar />
+              <Header />
+
+              <MapComponent
+                startPosition={startPosition}
+                endPosition={endPosition}
+              />
+            </>
           }
         />
       </Routes>
